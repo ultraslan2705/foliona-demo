@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Foliona - Front-end developer and storyteller. Creating beautiful and functional web experiences.">
+    <meta name="keywords" content="front-end developer, web design, portfolio, web development, UI/UX">
+    <meta name="author" content="Foliona">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Foliona - Front-end Developer">
+    <meta property="og:description" content="Creating beautiful and functional web experiences">
+    <meta property="og:image" content="https://placehold.co/1200x630">
+    <meta property="og:url" content="https://foliona.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Blog Post - Foliona</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="fixed-top">
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Foliona</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <button class="btn btn-outline-primary theme-toggle" id="themeToggle">
+                                <i class="bi bi-sun-fill"></i>
+                                <i class="bi bi-moon-fill d-none"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="blog-single-page">
+        <article class="blog-post py-5">
+            <div class="container">
+                <header class="blog-header text-center mb-5">
+                    <div class="category-badge mb-3">Development</div>
+                    <h1 class="display-1 fw-bold mb-4 animate__animated animate__fadeInDown">Getting Started with Web Development</h1>
+                    <div class="meta d-flex justify-content-center align-items-center gap-4 mb-4">
+                        <div class="author d-flex align-items-center">
+                            <img src="img/author.jpg" class="rounded-circle me-2" alt="Author" style="width: 40px; height: 40px; object-fit: cover;">
+                            <span>John Doe</span>
+                        </div>
+                        <div class="date">
+                            <i class="bi bi-calendar me-2"></i>
+                            January 1, 2024
+                        </div>
+                        <div class="reading-time">
+                            <i class="bi bi-clock me-2"></i>
+                            5 min read
+                        </div>
+                    </div>
+                </header>
+
+                <div class="row">
+                    <!-- Main Blog Content -->
+                    <div class="col-lg-8">
+                        <div class="featured-image mb-5">
+                            <img src="img/webdev.jpg" alt="Web Development" class="img-fluid rounded-4 shadow">
+                        </div>
+
+                        <div class="content">
+                            <p class="lead mb-4">Web development is an exciting field that combines creativity with technical skills. Whether you're looking to start a new career or enhance your current skills, this guide will help you get started.</p>
+
+                            <h2 class="mt-5 mb-4">Understanding the Basics</h2>
+                            <p class="mb-4">Web development can be divided into three main areas:</p>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    Front-end development (what users see)
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    Back-end development (server-side logic)
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                                    Full-stack development (both front-end and back-end)
+                                </li>
+                            </ul>
+
+                            <h2 class="mt-5 mb-4">Essential Tools and Technologies</h2>
+                            <p class="mb-4">To begin your web development journey, you'll need to familiarize yourself with several key technologies:</p>
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6">
+                                    <div class="card h-100 border-0 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-code-slash display-4 text-primary mb-3"></i>
+                                            <h5 class="card-title">HTML5 & CSS3</h5>
+                                            <p class="card-text">The building blocks of web development for structure and styling.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card h-100 border-0 shadow-sm">
+                                        <div class="card-body">
+                                            <i class="bi bi-file-earmark-code display-4 text-primary mb-3"></i>
+                                            <h5 class="card-title">JavaScript</h5>
+                                            <p class="card-text">The programming language that brings interactivity to your websites.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h2 class="mt-5 mb-4">Learning Resources</h2>
+                            <p class="mb-4">There are numerous resources available for learning web development:</p>
+                            <div class="alert alert-info">
+                                <i class="bi bi-info-circle me-2"></i>
+                                <strong>Pro Tip:</strong> Start with free resources before investing in paid courses.
+                            </div>
+
+                            <h2 class="mt-5 mb-4">Next Steps</h2>
+                            <p class="mb-4">Once you've mastered the basics, you can explore more advanced topics like:</p>
+                            <div class="row g-4 mb-5">
+                                <div class="col-md-4">
+                                    <div class="card h-100 border-0 shadow-sm">
+                                        <div class="card-body text-center">
+                                            <i class="bi bi-braces display-4 text-primary mb-3"></i>
+                                            <h5 class="card-title">Frameworks</h5>
+                                            <p class="card-text">React, Vue, Angular</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card h-100 border-0 shadow-sm">
+                                        <div class="card-body text-center">
+                                            <i class="bi bi-server display-4 text-primary mb-3"></i>
+                                            <h5 class="card-title">Backend</h5>
+                                            <p class="card-text">Node.js, Python, PHP</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card h-100 border-0 shadow-sm">
+                                        <div class="card-body text-center">
+                                            <i class="bi bi-database display-4 text-primary mb-3"></i>
+                                            <h5 class="card-title">Database</h5>
+                                            <p class="card-text">MySQL, MongoDB</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="comments-section mt-5">
+                            <h3 class="mb-4">Comments</h3>
+                            <div class="comment-form mb-4">
+                                <form class="needs-validation" novalidate>
+                                    <div class="mb-3">
+                                        <label for="comment" class="form-label">Leave a Comment</label>
+                                        <textarea class="form-control" id="comment" rows="3" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please enter your comment.
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Related Posts Sidebar -->
+                    <div class="col-lg-4">
+                        <div class="sticky-top" style="top: 333px;">
+                            <h3 class="fw-bold mb-4 animate__animated animate__fadeInDown bg-light text-dark p-3 rounded-3 shadow-sm">Related Posts</h3>
+                            <div class="row g-4">
+                                <div class="col-12">
+                                    <div class="card h-100">
+                                        <img src="img/clean.jpg" class="card-img-top" alt="Getting Started with Web Development">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Getting Started with Web Development</h5>
+                                            <p class="card-text">Learn the basics of web development and start your journey in this exciting field.</p>
+                                            <a href="blog-single.html?post=webdev" class="btn btn-xs mt-auto pt-3">Read More <i class="bi bi-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card h-100">
+                                        <img src="img/responsive.jpg" class="card-img-top" alt="Responsive Design Best Practices">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">Responsive Design Best Practices</h5>
+                                            <p class="card-text">Discover the essential techniques for creating responsive websites that work on all devices.</p>
+                                            <a href="blog-single.html?post=responsive" class="btn btn-xs mt-auto pt-3">Read More <i class="bi bi-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="card h-100">
+                                        <img src="img/java.jpg" class="card-img-top" alt="JavaScript Fundamentals">
+                                        <div class="card-body d-flex flex-column">
+                                            <h5 class="card-title">JavaScript Fundamentals</h5>
+                                            <p class="card-text">Master the core concepts of JavaScript and enhance your web development skills.</p>
+                                            <a href="blog-single.html?post=javascript" class="btn btn-xs mt-auto pt-3">Read More <i class="bi bi-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="social-links mb-3">
+                        <a href="#" class="text-light me-3">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="text-light me-3">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" class="text-light">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                    <p class="mb-0">&copy; 2024 Foliona. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html> 
