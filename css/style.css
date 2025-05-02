@@ -1613,4 +1613,29 @@ footer {
 
 .nav-item .theme-toggle:hover i {
     opacity: 0;
+}
+
+[data-theme="dark"] .blog-single-section .card-title {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .blog-single-section .lead {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .blog-single-section .text-muted {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .lead {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .hero-subtitle {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .bg-light {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
 } 
